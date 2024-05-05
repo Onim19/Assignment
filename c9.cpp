@@ -15,30 +15,30 @@ public:
         }
         else if(i1+i2==0)
         {
-            cout<<"Subtraction of 2 complex number : "<<r1+r2<<endl;
+            cout<<"Summation of 2 complex number : "<<r1+r2<<endl;
         }
         else
         {
-            cout<<"Subtraction of 2 complex number : "<<i2+i2<<"i"<<endl;
+            cout<<"Summation of 2 complex number : "<<i2+i2<<"i"<<endl;
         }
     }
         void diff(float r1,float r2,float i1,float i2)
     {
         if(i1-i2>0)
         {
-            cout<<"Summation of 2 complex number : "<<r1-r2<<"+"<<i1-i2<<"i"<<endl;//formula
+            cout<<"Diference of 2 complex number : "<<r1-r2<<"+"<<i1-i2<<"i"<<endl;//formula
         }
         else if(i1-i2<0)
         {
-            cout<<"Subtraction of 2 complex number : "<<r1-r2<<i1-i2<<"i"<<endl;
+            cout<<"Difference of 2 complex number : "<<r1-r2<<i1-i2<<"i"<<endl;
         }
         else if(i1-i2==0)
         {
-            cout<<"Subtraction of 2 complex number : "<<r1-r2<<endl;
+            cout<<"Difference of 2 complex number : "<<r1-r2<<endl;
         }
         else
         {
-            cout<<"Subtraction of 2 complex number : "<<i2-i2<<"i"<<endl;
+            cout<<"Difference of 2 complex number : "<<i2-i2<<"i"<<endl;
         }
     }
     void product(float r1,float r2,float i1,float i2)
@@ -53,11 +53,11 @@ public:
         }
         else if((r1*i2-i1*r2)==0)
         {
-            cout<<"Subtraction of 2 complex number : "<<(r1*r2-i1*i2)<<endl;
+            cout<<"The product of 2 complex number : "<<(r1*r2-i1*i2)<<endl;
         }
         else
         {
-            cout<<"Subtraction of 2 complex number : "<<(r1*i2-i1*r2)<<"i"<<endl;
+            cout<<"The product of 2 complex number : "<<(r1*i2-i1*r2)<<"i"<<endl;
         }
     }
 };
