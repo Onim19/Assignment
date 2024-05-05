@@ -17,6 +17,6 @@ int main ()
    cout<<"Enter y-coordinate of 2nd point : ";
    cin>>in2.y;
    float distance;
-   distance= sqrt(((in2.x-in1.x)*(in2.x-in1.x))+((in2.y-in1.y)*(in2.y-in1.y));
+   distance= sqrt(((in2.x-in1.x)*(in2.x-in1.x))+((in2.y-in1.y)*(in2.y-in1.y)));
    cout<<"The distance between 2 points is "<<distance<<" unit";
 }
